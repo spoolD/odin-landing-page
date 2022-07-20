@@ -10,6 +10,19 @@ body{
     background-color:#1F2937;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 48px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 24px;
+}
+
 .header h1 {
     font-size: 24px;
     color: #F9FAF8;
@@ -20,6 +33,23 @@ li,
 .footer {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.hero-section {
+    display: flex;
+    padding: 48px 48px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.image-placeholder {
+    flex: 0 0 auto;
+    width: 500px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-text {
@@ -37,24 +67,98 @@ button {
     background-color: #3882F6;
 }
 
+button {
+    color: #F9FAF8;
+    padding: 4px 24px;
+    border: none;
+    border-radius: 6px;
+}
+
 .info-section h1 {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937; 
+    text-align: center;
  }
+
+ .info-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+ }
+
+ .info-content {
+    width: 140px;
+    height: 300px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .info-content p {
+    text-align: center;
+ }
+
 .blue-box {
-    height: 100px;
-    width: 100px;
+    height: 125px;
+    width: 125px;
     border: 2px solid #3882F6;
+    border-radius: 16px;
 }
 
 .quote-section {
     background-color: #E5E7EB;
+    padding: 50px 125px;
 }
 
-.quote{
+.attribute {
+    font-weight: 700;
+    font-size: 18pt;
+    color: #1F2937;
+    text-align: right;
+    margin-top: 0;
+}
+
+.quote {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
     color: #1F2937;
+    margin-bottom: 0;
+}
+
+.action-section {
+    margin: 48px 125px;
+    border-radius: 14px;
+    display: flex;
+    padding: 8px 75px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#action-button {
+    border: 1px solid #E5E7EB;
+    flex: 0 0 auto;
+}
+
+.action-text {
+    color: #E5E7EB;
+}
+
+.action-text h3{
+    margin-bottom: 0;
+}
+
+.action-text p{
+    margin-top: 0;
+}
+
+.footer{
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
